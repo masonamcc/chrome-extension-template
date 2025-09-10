@@ -25,7 +25,6 @@ Follow these steps to install the extension locally in Chrome:
 - The extension will now appear in your extensions list.
 
 ```
-Best,
  ___     ___   ___    ______  _______ ___  ___
 |   \   /   | /   \  /      \/       |   \|   |
 |    \_/    |/     \/    |__/|       |    \   |

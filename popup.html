@@ -3,16 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="styles/general.css"/>
+    <link rel="stylesheet" href="styles/text.css"/>
 </head>
 <body>
 <style>
     body {
         width: 600px;
-        height: 550px
+        height: 550px;
+        margin: 0;
     }
 </style>
-<h1>Hello World</h1>
-<button id="testBtn">Test Button</button>
+<div class="pad-1 block">
+    <h1>Chrome Extension Template</h1>
+    <div class="font-size-20 block">
+        <p>This is a template Google Chrome Extension that you can use to experiment with extension development.</p>
+        <p>Try adding logic to the button when clicked.</p>
+    </div>
+
+    <button id="testBtn" class="button">Test Button</button>
+</div>
+
 <script src="popup.js"></script>
 </body>
 </html>

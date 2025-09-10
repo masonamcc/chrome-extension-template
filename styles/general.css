@@ -1,0 +1,27 @@
+.button {
+    border-radius: .25rem;
+    border: 1px solid;
+    border-color: gray;
+    background: white;
+    padding: .5rem;
+    font-size: 16px;
+    transition: background .2s ease-in-out;
+    cursor: pointer;
+}
+
+.pad-1 {
+    padding: 1rem;
+}
+
+.block > * {
+    margin-bottom: 1rem;
+}
+
+.button:hover {
+    background-color: #e8e8e8;
+
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
