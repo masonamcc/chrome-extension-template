@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Extension",
+  "description": "A Google Chrome extension template",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "images/chrome_logo_PNG19.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "clipboardWrite",
+    "clipboardRead",
+    "notifications",
+    "tabs",
+    "alarms",
+    "management",
+    "tabGroups",
+    "browsingData",
+    "desktopCapture",
+    "webNavigation",
+    "downloads",
+    "identity",
+    "identity.email",
+    "cookies",
+    "debugger"
+  ]
+}
